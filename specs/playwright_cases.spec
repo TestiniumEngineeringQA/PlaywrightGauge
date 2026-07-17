@@ -73,7 +73,7 @@ tags: playwright, live-site, hover, error
 
 Reveal hidden content on hover wait
 ---------------------------------
-tags: playwright, live-site, hover, wait
+tags: live-site, hover, wait
 * I open the hovers page
 * I hover over the first user avatar wait
 * I should see that user's profile link
