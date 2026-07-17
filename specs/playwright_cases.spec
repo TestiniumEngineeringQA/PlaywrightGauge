@@ -80,7 +80,7 @@ tags: live-site, hover, wait
 
 Reveal hidden content on hover undefined
 ---------------------------------
-tags: playwright, live-site, hover, undefined
+tags: live-site, hover, undefined
 * I open the hovers page undefined
 * I hover over the first user avatar wait
 * I should see that user's profile link
