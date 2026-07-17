@@ -2,6 +2,7 @@
   "Language": "java",
   "Plugins": [
     "html-report",
-    "screenshot"
+    "screenshot",
+    "xml-report"
   ]
 }
