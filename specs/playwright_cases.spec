@@ -87,7 +87,7 @@ tags: live-site, hover, undefined
 
 Reveal hidden content on hover exception
 ---------------------------------
-tags: playwright, live-site, hover, exception
+tags: live-site, hover, exception
 * I open the hovers page
 * It should throw runtime exception
 * I should see that user's profile link
