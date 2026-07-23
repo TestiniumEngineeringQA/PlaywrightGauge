@@ -3,13 +3,13 @@ Playwright cases
 
 Open Google
 -----------
-tags: playwright, google
+tags: google
 * I open the Google page
 * I should see Google in the title
 
 Complete login form
 -------------------
-tags: playwright, login
+tags: login
 * I prepare the login page
 * I enter login credentials
 * I submit the login form
@@ -17,84 +17,84 @@ tags: playwright, login
 
 Add a todo item
 ---------------
-tags: playwright, todo
+tags: todo
 * I prepare the todo page
 * I add a todo item
 * I should see the todo item in the list
 
 Select test preferences
 -----------------------
-tags: playwright, preferences
+tags: preferences
 * I prepare the preferences page
 * I choose Firefox and enable headless mode
 * I should see the selected preferences
 
 Handle a JavaScript confirm dialog on a live site
 --------------------------------------------------
-tags: playwright, live-site, dialogs
+tags: dialogs
 * I open the JavaScript alerts page
 * I trigger the confirm dialog and accept it
 * I should see the confirm result message
 
 Interact with content opened in a new tab
 ------------------------------------------
-tags: playwright, live-site, tabs
+tags: tabs
 * I open the multiple windows page
 * I click the link that opens a new tab
 * I should see the new tab content
 
 Type inside an iframe on a live site
 --------------------------------------
-tags: playwright, live-site, iframes
+tags: iframes
 * I open the rich text editor page
 * I type text inside the editor iframe
 * I should see my text inside the editor iframe
 
 Wait for dynamically loaded content
 --------------------------------------
-tags: playwright, live-site, waits
+tags: waits
 * I open the dynamic loading page
 * I start the dynamic loading process
 * I should see the dynamically loaded text
 
 Reveal hidden content on hover
 ---------------------------------
-tags: playwright, live-site, hover
+tags: hover
 * I open the hovers page
 * I hover over the first user avatar
 * I should see that user's profile link
 
 Reveal hidden content on hover error
 ---------------------------------
-tags: playwright, live-site, error
+tags: error
 * I open the hovers page
 * I hover over the first user avatar error
 * I should see that user's profile link
 
 Reveal hidden content on hover wait
 ---------------------------------
-tags: live-site, hover, wait
+tags: wait
 * I open the hovers page
 * I hover over the first user avatar wait
 * I should see that user's profile link
 
 Reveal hidden content on hover undefined
 ---------------------------------
-tags: live-site, hover, undefined
+tags: undefined
 * I open the hovers page undefined
 * I hover over the first user avatar wait
 * I should see that user's profile link
 
 Reveal hidden content on hover exception
 ---------------------------------
-tags: live-site, hover, exception
+tags: exception
 * I open the hovers page
 * It should throw runtime exception
 * I should see that user's profile link
 
 Complete a multi-step user journey
 -------------------------------------
-tags: playwright, live-site, journey
+tags: journey
 * I open the login page
 * I should see "The Internet" in the page title
 * I enter the username "tomsmith"
